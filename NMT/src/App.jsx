@@ -1,19 +1,7 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-
-function App() {
-  const [count, setCount] = useState(0)
-
+export default function App() {
   return (
-    <>
-      <div className="text-center font-bold text-4xl ">
-          Hello tong
-      </div>
-      <input type="text" placeholder="Type here" className="input input-bordered w-full max-w-xs" />
-    </>
+    <h1 className="text-3xl font-bold underline">
+      Hello Tong
+    </h1>
   )
 }
-
-export default App
